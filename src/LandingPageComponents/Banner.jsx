@@ -1,8 +1,10 @@
 import './Banner.scss';
 const Banner = () => {
-    <div className="TopBanner">
-
-    </div>
+    return (
+        <div className="TopBanner">
+            <h1> Hello </h1>
+        </div>
+    );
 }
 
 export default Banner;
