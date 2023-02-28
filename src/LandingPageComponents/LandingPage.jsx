@@ -1,9 +1,9 @@
-import Banner from "./Banner";
+import NavigationBar from "./NavigationBar";
 
 const LandingPage = () => {
   return (
     <div className="LandingPage">
-      <Banner />
+      <NavigationBar />
     </div>
   );
 }
