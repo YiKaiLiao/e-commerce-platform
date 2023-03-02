@@ -9,11 +9,21 @@
     height: 2em;
 }
 
-.inputForm button {
+.nav-fill {
+    position: relative;
+}
+
+.nav-right {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 0.1em;
+    line-height: 1.8em;
+    background-color: bisque;
+    border-radius: 0 3px 3px 0;
+}
+
+.nav-right button {
     background: none;
     border: none;
     cursor: pointer;

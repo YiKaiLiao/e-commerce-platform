@@ -16,14 +16,15 @@ const SearchBar = (props) => {
 
     return (
         <form className='inputForm' onSubmit={handleSubmit}>
-            <input
-                type="text"
-                placeholder="Search"
-                value={query}
-                onChange={handleInputChange}
-            />
-            <button type="submit"><RxMagnifyingGlass /></button>
-
+            <div className='nav-fill'>
+                <input
+                    type="text"
+                    placeholder="Search"
+                    value={query}
+                    onChange={handleInputChange}
+                />
+            </div>
+            <div className='nav-right'><button type="submit"><RxMagnifyingGlass /></button></div>
         </form>
     );
 }
