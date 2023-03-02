@@ -1,0 +1,21 @@
+.inputForm {
+    position: relative;
+}
+
+.inputForm input {
+    padding-right: 30px;
+    border-radius: 5px;
+    width: 50vw;
+    height: 2em;
+}
+
+.inputForm button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0.1em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
