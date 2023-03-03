@@ -4,8 +4,13 @@
     align-items: center;
     position: relative;
     background-color: #131921;
-    height: 3em;
+    height: 4em;
     color: #d5d6d7;
+}
+
+.navBar>*:not(.navSearchBar):hover {
+    border: 1px solid #fff;
+    border-radius: 3px;
 }
 
 .navLogo {
@@ -16,6 +21,10 @@
 
 .navSearchBar {
     position: static;
+    padding: 0.5em;
+}
+
+.navSignIn {
     padding: 0.5em;
 }
 

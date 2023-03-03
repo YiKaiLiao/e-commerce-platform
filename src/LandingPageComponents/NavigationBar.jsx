@@ -5,6 +5,7 @@ const NavigationBar = () => {
         <div className="navBar">
             <div className='navLogo'> Logo </div>
             <div className='navSearchBar'><SearchBar /></div>
+            <div className='navSignIn'>Signin</div>
             <div className='navCart'>Cart Icon</div>
         </div>
     );
