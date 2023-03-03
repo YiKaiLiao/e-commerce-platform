@@ -3,11 +3,18 @@
 }
 
 .inputForm input {
-    padding-right: 30px;
+    padding-right: 3em;
+    padding-left: 1em;
     border-radius: 5px;
+    border: none;
     width: 50vw;
-    height: 2em;
+    height: 3em;
 }
+
+.inputForm input:focus-visible {
+    outline: 3px solid #ff9900;
+}
+
 
 .nav-fill {
     position: relative;
@@ -17,15 +24,24 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 0.1em;
-    line-height: 1.8em;
-    background-color: bisque;
+    right: 0;
+    height: 100%;
+    width: 3em;
+    background-color: #febd69;
     border-radius: 0 3px 3px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-right button {
+    height: 100%;
     background: none;
     border: none;
     cursor: pointer;
     outline: none;
+}
+
+.nav-right button svg {
+    font-size: 1.5em;
 }
