@@ -1,4 +1,4 @@
-.navBar {
+.navBelt {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
     color: #d5d6d7;
 }
 
-.navBar>*:not(.navSearchBar):hover {
+.navBelt>*:not(.navSearchBar):hover {
     border: 1px solid #fff;
     border-radius: 3px;
 }
